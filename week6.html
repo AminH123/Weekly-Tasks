@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title> the world cup site (Ps. not offical) </title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    </head>
+    <body> 
+    
+
+        <div id="app">
+            <label for="">your team:</label>
+            <input type="text"> 
+            <br> 
+            <label for="">team password:</label>
+            <input type="password"> 
+            <br> 
+            <label for=""> team email:</label>
+            <input type="text"> 
+
+            <br>
+            <br>  -->
+
+            {{message}}
+
+            <br> 
+        <br> 
+
+         <div>
+        <input type="checkbox" value="Brazi" v-model="checkedValues">
+        <label for="">Brazil</label>
+        <input type="checkbox" value="France" v-model="checkedValues"> 
+        <label for="">France</label>
+        <input type="checkbox" value="Other team"v-model="checkedValues">
+        <label for="">other team</label>
+
+        <br>        
+        
+        so you thin {{checkedValues}} will win the world cup
+
+        <select name="" id=""></select>
+
+        </div>
+
+        <select v-model="selected">
+            <option disabled value="">how many goals will be scored in 2022 worldcup</option>
+            <option>less then 100</option>
+            <option>200</option>
+            <option> more than 200</option>
+          </select>
+          <span>Selected: {{ selected }} goals</span>
+
+        </div>
+        
+
+        
+
+        <script> 
+        new Vue ({
+            el: "#app", 
+            data() { 
+            return {
+                message: "hello from vue!" ,
+                checkedValues: [],
+                selected:''
+            } 
+        }
+    })
+    </script>
+    </body>
+    </html>
