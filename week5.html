@@ -1,0 +1,30 @@
+<!doctype html>
+<link rel="stylesheet" herf="style.css"> 
+
+<body>
+    <div id="app">
+      <br>
+        {{message}}
+        
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.8/dist/vue.js"></script> 
+<script src= "./vue.js"></script>
+
+<div id="app"> 
+    <p> {{message}} </p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
+</div>
+
+<script> 
+  new Vue ({
+      el: "#app", 
+      data() { 
+      return {
+          message: "hello from vue!" ,
+          
+      } 
+  }
+})
+
+</script> 
