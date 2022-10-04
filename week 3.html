@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>task 1</h2>
+
+<p>the length of this sentence should be: 31</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "thelengthofthissentenceshouldbe";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+<h1> 
+    group B:
+</h1>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+    const Teams = ["Iran", "Wales", "Usa", "England"];
+    document.getElementById("demo1").innerHTML = Teams;
+    Teams.pop();
+    </script>
+<h2> this year is world cup because its:</h2>
+    <p id="demo4"></p>
+
+    <script>
+    const d = new Date();
+    document.getElementById("demo4").innerHTML = d.getFullYear();
+    </script>
+    
+<h1>this will show how many milliseconds has passed since january 1970</h1>
+    <p id="demo6"></p>
+    <script>
+    const e = new Date();
+    document.getElementById("demo6").innerHTML = d.getTime();
+    </script>
+</body>
+</html>  
