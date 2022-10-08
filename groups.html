@@ -1,0 +1,414 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url('https://i.pinimg.com/736x/6f/71/4f/6f714f9e9b3eab30ccec71f3b888ca28.jpg')
+    }
+</style>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ background-color: rgb(116, 111, 111);
+}
+
+li {
+float: left; 
+}
+
+li a {
+    display: block;
+    color:bisque;
+    text-align:center;
+    padding: 16px 17px;
+    text-decoration: navy;
+}
+li a:hover:not(.active) { 
+    background-color: #111;
+}
+
+.active {
+    background-color: #beb22a;
+}
+
+</style>
+<body> 
+    <ul> 
+        <li><a href="http://127.0.0.1:5500/website%20front%20page.html">Matchday</a></li>
+        <li><a href="http://127.0.0.1:5500/groups.html">Groups</a></li>
+        <li><a href=http://127.0.0.1:5500/Infopage.html>more information</a></li>
+        <li><a href=http://127.0.0.1:5500/contact.html>contact us</a></li>
+    </ul>
+</body>
+<style> 
+h1 {
+    text-align: center;
+    color: brown;
+}
+h2 {
+    text-align: center;
+}
+table, th, td {
+  border:1px solid black;
+}
+table, td {
+    text-align: center;
+}
+</style>
+<body>
+    <h1 style= "background-color: antiquewhite"> welcome to the groups page</h1>
+    <h2 style= "background-color: antiquewhite" >Group A </h2>
+<table style="width:100%">
+<tr style= "background-color: antiquewhite">
+    <th>Team</th>
+    <th>wins</th>
+    <th>Draw</th>
+    <th>loss</th>
+    <th>Points</th>
+</tr>
+<tr style= "background-color: antiquewhite">
+    <td> 
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAAwCAMAAAACcyXfAAAAYFBMVEWKFTj///+GAC/38vOJEDaFACuCACGICjOBAB/fzM/7+PmYRFfIo6qGAC15AACpaXeAABqhWGiDACXRtLm9kJl9AAvZwcWzfYiNIT5+ABKTNkzp3N6OKUHz7O6jXWyfU2Sa6pHKAAAA1UlEQVRYhe2Y2xKCMAxEK1rwgneEKiL//5dilGfjTOx5KPsDO91ssknd7DvWq2pzOWULZwsFs7DXTbhmBPML86ogmAfJb4Wp4Cratux9vjUutErl+25pbjCl2t15Hw7etMw/OKwtj/Hr/GF+AN6G1CYdNpTY5z5+VwlkkiDMorrp4NY+uW5c/MTgUhLPZ0DtER3iMKqrZJIg+RymfE6DGctnzmFUVwnQfGam55TPsZg5tUcwGyCaz8Cmn/T9TFyxb+ak8hm+n9F8hjZA6PeR+XH9T0o+ARyIFiNtXcreAAAAAElFTkSuQmCC"style="width:40px">Qatar </td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+</tr>
+<tr style= "background-color: antiquewhite" > 
+    <td>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAFVBMVEX///+uHCghRousChzIe398jLITPoi3iiGDAAAAQElEQVRoge3MMRHAMBADMCdNwx9yEfzopScBUFZR5HK5XC6Xy+XyKX+KcooCAAD/8xblFmUXyeVyuVwul8vlkw8TPyW9TXhFgQAAAABJRU5ErkJggg==" style="width:20px">Netherlands</td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+</tr>
+<tr style= "background-color: antiquewhite">
+    <td>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAZlBMVEX970IAhT/jGyMAgj/a3kH98kL40DziASL/9kJYm0AAfj8AgD/57kIAfD9IlD/h4UFwp0Dx6kLK00F9rECEr0A5jz+LtECUuUCbvUBRlz/n5kKvx0G6zEFElj/AzkFpokAgiT8Adj8oL/gBAAABVElEQVRoge3U7W6DMAwFUFjwxpIQEj7aEWhH3/8lF2ghQNk0KUbaJFv8aVwdoYudKP6mWBL9vuD17WWnIsIJJ5xwwgknnHDCCf8PuJQH4kVxHJ6WVXoYLut6LxccPOF87xwFh5MQZzgIl4oxtZMLCp6IOBb5MTicB/zjORcUXDHXaDDxdK5cjB3rT0Jxq5v3Rw0v7jpq+t1oE/rmRmfsXlPrUdlkh2QO7ewu/8DaOfyQDwq5Ets+V7n/sEHTArLiG/u03KXAUYQuXkTD+utqHkPnHOxl1tnFrmc9eInST4/rzR4F42bZNbg4dJlvZlfcWGBMhY3PUy6huOndoaiTpB5GvjeYOFxdKlxLAKPdyGcF5iiCdlfAfd+hdauvMXHT+32HRPF1LoF4caukv6dkeSvwcCi7dQ5tCWi4tNudtIgX189FOOGEE0444YQTTjjhhP95/At/FiwASVUmyQAAAABJRU5ErkJggg=="style="width:20px"> Senegal</td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+</tr>
+
+<tr style= "background-color: antiquewhite" > 
+    <td>
+<img src="data:image/png;base64,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"style="width:20px">Equador</td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+    <td> 0 </td>
+</tr>
+</table>
+<h2 style= "background-color: antiquewhite"> Group B </h2>
+
+<table style="width:100%">
+    <tr style= "background-color: antiquewhite">
+        <th>Team</th>
+        <th>wins</th>
+        <th>Draw</th>
+        <th>loss</th>
+        <th>Points</th>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+    <td> 
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAJ1BMVEX////OESTKAADOESX45ufNAB3+/PzWVljloKHMAA3VUFTikpT67O1hZEYAAAAAdklEQVRoge3WOQ6AMAxE0UnYl/ufF9oEF2DhwtL/9eiVcaTvzctU2urqYMDBwcHBwcHBwcHBwaNwvcZHR3uPb8dp7VQd9fatmzsNjh52KeZOxvC3wMHBwfPhoU9u6LEIPXOhB9pR3n8LODg4ODg4ODg4OHhC/ALcLRcPEceADwAAAABJRU5ErkJggg=="style="width:20px">England</td>
+    <td> 0 </td>
+    <td> 0</td>
+    <td> 0 </td>
+    <td> 0 </td>
+    </tr>
+    <tr style= "background-color: antiquewhite"> 
+    <td>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAkFBMVEX////aAAAjn0AZnDl0wIX76OjoXl7tkJDs9u7yr6/mY2Mfnj11xIjtk5OPx5mMxpf53d3jQUH++PjrhIT1y8uYz6T409Pqf3/iRkb2wMDkVVXO5dJku3jY69zj8eae06rvoKDfLCw+qVZSsmhatG5rvH1+wIvA4se12bsyp0+r2LXzt7fndnbdICDiODjob28K6UKqAAADzklEQVRoge2V65KjKhSF4bSXSHtDEAU13mNaW/P+bzcb0pl0T9X5Z6rm1HEXyWKx4RN30KB/XhjogB/wA37AD/gBP+AHfEf4m4n3d90e8a7j6d6+2/f3P93bvy5Elo6y64a+G62v6Pq+66zfDlL98HA95Pr+4Uzq99Sx0yufDoVhFEaWHxbzcIki48IxnaPw4aKPYr7UI3TAhWE/p+FUhvdkWEKq6EwOnJWG832mXngpUXk9W+fifClmvwK5VlrSOorORTVH52gqCkil16KYrOp6Laoqiq51VZz6Yopgqp9Ol6qohkIvPF3q1DrB4Gyg6JpWl+piFeezVQ+XSk+tx6kqoqIfinRKp7o7VVN9BVfP0zSXcLWpHssKXDqN16k6h5ehngAzXdKimvzZirSrohH5vv/hj70/+h992WtX+v3o+105GBmM6/thKH1/GHwtUOhSu84vB1/P0VJ+QML3x4/hjgEoOp1O4clEejZSn7+7uTBynYxMX3I1UsxGzuld6u/OQNERf3PYHhICefZr6BmmFGcvACdxAnvPMvuru2csVCwIeRh70Bd02ZPNcOzJB1x6MWb7sRvcJLn9gNt5AgN7sTmmyP1EDzj6DBDFfCc4gY3T4AkPKGyd7MNOMLZtvDzhnvZ4nyMj8QqV+QEXaMVyF7iHc7Tg5glvAJyb3h5wAjvXT+aCzQ1k8GuSneASKxRjJ9E9XYzEwTZSO5UlwS2yW6gz7F+fQIFbG7U7/aBQggSeUaKx+hIEns9kr6NojkqsNw1fsd5+DNUXO8FRo/TrpdWn24YCwYtFNXux4XxwlCisdFlAEsR3favHSNNXDA3YaLeaPINhiB1fts8QTbZp+JY1++87gUCOc9eXhP2iv/7/Wdi2zWwTLDbi/pCGG/GkkWUxIj0jvDESuz/kQYMPHAAnd9S25RQrRwd1nG2j23p3uXJoDo4ap8BBtO3d5Q6kKF2dr4VKL8TkvhAcClw3CG4k4x5l0NUtcFiQudoFuq28IS4J7i7IG5ct6j4vCJzm5srN/Vr4GbDGNTlIuplCdBGK8/gmGyW5IB7PJY9d95NxLhgTpOGCB4Q1HC4hgoALkTEvE1xQPcBjh0kQuQmZc24DXkFONQaKPCYyToi0BWHbTWTLTTC1cMn4RjlbmOdimy/BQql0XSlduki5uGoTzPXgFppFxu5tY0smbgvcBZfEU58e4+BzRAhpiWpB1m0z4uhG2nwzosgKg1DLTRGS52TLQbZWC6zKKSFO224byGowzkrz9g5dEX5hHPADfsAP+AE/4Af8gP9X4L8AmdqEqAitjaMAAAAASUVORK5CYII="style="width:20px"> Iran</td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+<td>
+    <img src="data:image/png;base64,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"style="width:20px"> Wales</td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+    <td> 
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/330px-Flag_of_the_United_States.svg.png"style="width:20px">USA </td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+</table>
+
+<h2 style= "background-color: antiquewhite"> Group C</h2>
+<table style="width:100%">
+    <tr style= "background-color: antiquewhite">
+        <th>Team</th>
+        <th>wins</th>
+        <th>Draw</th>
+        <th>loss</th>
+        <th>Points</th>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+    <td>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAt1BMVEV0rN////9wqt6ixun2tA78+/v5tw77uQ307ej07+2/jWTlzbTFnonNoXvNooLaxbvo2tLfzcfXvrDIl27k0MLv5t/WtJnevqDo07/r283dupX59vTLl2ngw63Un2Thx7PRlEfPllnKjkfRmFXNqpDWoWDStqfXq4XKiCrEhTnDjFO/gkHMizrRqoqlYCCvbSyzdTm3bwDhnQbiuo28dxbqqA7cqm/QjAvXqXWkXAmwaRPYlQ7BfS+Qr0qIAAACG0lEQVRoge2WXXOiMBSGzW7CR6k1aIKQ8CGhCoI0Sku1tv//d21oZ/dWdidM9yLPBRfM8EzmcE7eM5sZDAaDwWAwGAzfwY8Jmf2ckBmYkP9GvgAYAx9NIHeWYAUIoQFYOprlFIM5WodhGDE0Bz7WKEeAx5wkPA29kGXEWQ2vdMndO0A3To6E5xU0B2UE7lxdcgp4AzzGyIf3WBCWbJHggGuS70rKKyrwXrR1KYLCrThqdnrkCNDthR5aUcu3J1lX+OCGlTOm6iPk9w8RWKe+OJ46y+pOx31bPfPo4V6LHKAkZ62QZ9uC0LLPxzxieTKmXW7Ll7sgwSRuXmzYW1YP7VNTB9RJ4oWOk1Mavuap7OD7J7CT4nK5ZOj22W/LMSYka2PZW+/Xrju9W/11nmSEjBjTMfKIZNn82kMIu+HRy7hVcqxDjlCmqiBkp36nKgq0OpnmryGlN78cIV/EiUODvDnZEJ7PENovTUxwEuyWGuRfrUjyP60oRautFYchcp+rdv97iISfMqBriBBwqtA9+FUtn95kLdoDvWyppvEHuwbxyt0EoqzbYo8FrTgtNV1c6nblAm0TRopH74Mw5oGGgxHNMjosohLktPA8gXJnQzWGxVDelUMyplIu5QlRmacx5tSY+iqgWaQSeq0CGo+pyXj552oRUELUfqF9tRhA/rAU3b5o/0n+90wrn3SFnnT5NxgMBoPBYDAYvoNfl+VAuBqXMagAAAAASUVORK5CYII="style="width:20px">Argentina</td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+    <td>
+        <img src="data:image/png;base64,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"style="width:20px"> Mexico</td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+    <td>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAD1BMVEX////cFDz88vPfOE/cDTkjAetYAAAAN0lEQVRoge3MQQ0AIBADsMHhXzMeSBY+rYAmAAAAAK92UaYopyirSC6Xy+VyuVwul8vlcvn3/AK/sxMN1M9wAQAAAABJRU5ErkJggg=="style="width:20px"> Poland</td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+    <td>
+        <img src="data:image/png;base64,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"style="width:20px"> Saudi Arabia </td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+
+</table>
+
+<h2 style= "background-color: antiquewhite"> Group D </h2>
+<table style="width:100%">
+    <tr style= "background-color: antiquewhite">
+        <th>Team</th>
+        <th>wins</th>
+        <th>Draw</th>
+        <th>loss</th>
+        <th>Points</th>
+    </tr>
+<tr style= "background-color: antiquewhite">
+<td>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAAFVBMVEX///8AI5XtKTkACJB1e7fzfYTtFCrisQxzAAAAiUlEQVR4nO3PRxEAIAADsDL9S0ZEf1ziIBmttVM7d7YiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiLyaeQBbt9uqjGyZV0AAAAASUVORK5CYII="style="width:20px"> France</td>
+<Td>0</Td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr style= "background-color: antiquewhite">
+    <td>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAKlBMVEXIEC7////9+frosbbFABPKHzfHBCrNQEvEAA/HACPKMj3EAAv+/P3qub0gJtRTAAAAaUlEQVRoge3VOQ6AMAxFwYR9Cfe/LiUgUiCEK+bVX1PaKd0b+iYfNeNQ2bwODofD4XA4HA6Hw+Ff4N29ab7gy1rZPCq1tcoJL1t18qSUA4PD4f/FQw9X6MkNfRZwOBwOh8PhcDgcDo/Bd3jOFNvqcLHDAAAAAElFTkSuQmCC"style="width:20px"> Denmark</td>
+    <Td>0</Td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+        <td>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAbFBMVEXnABP////mAADnAA3+9vfnAAX619j509T5zs//+/z73uDwg4bpODv96+z++Pj98fL0pafoGiDxjI7tXmL84+TsWVz0qqzoJSroICXrR0zqQUbvdnj2uLrubnHpMTTrU1f3wMLznJ7vfX/xkpRYJrOEAAACGklEQVRoge2YfZNDMBDG2eAQSlJUX7Tafv/veMgLPXe9CfZmbibPP4aZ/KzNk82G41hZWVlZWVn9cxGCg4Vevj9cNn1FR05oFaRepzSoaLIdnwDjceROFBW83gYPLN+5M+1yBqvRBLg3R/fy+NrggX18j+71sS54OE7DToMwDNJp8McVdNhrTtY2CettyJKmzfTj/WI63HTMtO5MPqSYdL6sqY7/tpDuX5X/ckfNHSjlypVXfwmbQCEzW0p0F/Pt2QZxEN4bPRvFIs9AJVNyABU1LcY5yBN5Uy1IDJwkpVbsMn4xYvaUiT+Z0yF8HQp85vNAXEJjuHIKVey7uG+n9GihY0BQYsV+SN65mn2A2xrCSS2iKsU4P1G1i0I8g0e1mWHgPAwrVOChq+FH5f6xVp7NQofLMOopAz+6IxzoEG3AH/rhxQxOxMcfxPdCNYF30xGFPAEy1rTYKC2kHr7ZU1lJp3DCTl2hgUkt3hklnVyHQdLB8q5X1oDoAZQ1ha4mcBBJlitbVd700ujlup+yXaO6LsfmEt5bJ61Kpjd9cshe4EZlHReOmRbUCUW14vtFdFm3iHCX/5vCdVpduMxKLjPcozE3C73NcYxtDnWD/r218Fa0FqhNEW4797YR9Vc2orgtNG7zj3tswT1w4R4VnZ8Oud4Wh1xnOJ7TL8fzmLMNT/+QPHB+LCg+0i+R8RU4WCsrKysrK6s/1CcZ0iGp5MrIvAAAAABJRU5ErkJggg=="style="width:20px"> Tunisia </td>
+        <Td>0</Td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        </tr>
+        <tr style= "background-color: antiquewhite">
+            <td>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAwFBMVEUBIWn////kACsAIWnjABjuiI/vlpbujpIAH2gAAFnKzNjLytbDx9XiAAAAAF8AAF3jAB8AHGcACGE2H2SHjKnrbXPqXWf4ztH619sAGGZ+g6Pu7/MAAFTkACTrACfZCDI9QXj96OkYJWrrdXv2w8jsgIMAE2TiAAvl5uz84OEAAE9uc5e5vMzoU17qSVneho7XACIyOnU6LWyTmLJcYYxNVoVITX8AADvU2OL1tr3q1NnaWWnpx802EF1hapKmq8GhthSDAAAEyklEQVRoge1YDVPbOBCVIt+h+IhlqyagODkSBxyTGAoNSd32Cv//X50kf0S25VhcnZm2xxsyAbx62n1aaVcGF1cwRzChDgY6oKEN4Zk1kLDOILSHSGuIHToJ4N2tOxi4o/ElcN1xSR/7oYP5sOyn+CA9ed0IIOyEPqdezqyBawmngTtwVwfv4wmjTe+NPMeUTWK4uLUE9fhSsIHbkStCULyfNugNyDGdcq8Xy5GlsIF8rlE2l9Te96Q45uRcEE8KIh096ABEKFKlivaAYmSqOcIU+DqWCdDPGU8cRZyjnmPqlFrX4m9RSzwkBHeTY0Ky0W0rh5R1Xqlzh7n2beRl8lnNnMtmb2RoRTU+f6vmXGv9ipW7pVzvyIca7WV4WnIhp4h3VdUa+lEt14pM1RgHPj8UmuR8o7c7oyRp+UEUK2FeKmGu6+TrTEa32OiFjJiiyqGgom2BNudV8vNNbaMfEkAFGNawXnPvebgC9wclq+QQXl1IC3Xx1+s6FzhvIEkCCBc3Al/uWsgXX+Tzw+MgSZpMAJqi6rkRTkv+pynuZxn57N54CLBMkXNzdtMRKzA4Hf5+J//dyE+ain8Y4uyh2EQPZ6ZjfuGz5a8m7MPjq0uOm5s2cn4wCwNx8toaIkBqmJJJWlKPLVERspKk9fzyYTRajWbLBS8WfGgN1YYT0yGvQwX1hay+S+7XpF5DeRde0I9Hs4G1uhX0Q9qs+2X9d0T3dBjk5oP8abNAi06h4QTv0mrXh6JQZ8W5pOY12nJluLyia/oW2SmU9CtpfVd2aUUHUHQtXruxjlzrjBTHq/X3WUOkCdORYbb0ithx6jKOlotqY5S37qqRmy0QoV1dLiW6BCivDwiTUPF67PL5Zxdi/jC/ABxr/nl+NUdnchI+mtKa1u5KPgRKO3ms+edxAzVusVqWjJtS5cHV+BDWsNpOHr8T8d1RY5Hacwd1c0a19e68zWEa6eIHxXxWVa03XnK1K3cLahvdZ5rW3eSSy7Vn9cQEleTTXHBNyUFzt1jg67fHx+vr629fg6x11wGRJAg+CjOOx49BkJAWQ3EoBDn+uQffv38Q2M/nlVOh+s7Ae5rPP33I8Wk+f/I0RsUJNc+x34P8tuh5nv51SB6x8hh3mhY4YtUHmrG1/2pkpNq/Q4ufRvNTZpc3n5+OnW639G0jzDVE0zieohNp7j1B+NS3LhHLzhLxhsXPdMGMGQ3tjI297KhsBAg/1W0iS76ze2G9yMJ2MJ1gJ8JEFAGCI8fjjenOzPXO0BwuB0ye1xtBvlk/J/zLd3o6l9BUduyBLGGxrJPp1IzbILXYvqy8GYI96y8ViV8l90n3GGNgaqvctrZH+M/kw51KvhuakndrjiK2rYgebFmE+tGcTZ9jWEP8Mu0jzxHZ23Vqqfu+pTGqjgbHYsPeq45a4FW2Lz8iCw43m42/Tez0wJrayXbC/x3+cM5gFkXUIcPP5ZIGn4fEoRFjfeUjwsobCNx+T26MAx3CyS+2F7RJItOc9VyJInEk2o4jMmcTGQ8zA92KoxBjcUC+tUp3ATkJTCNeP70oha/mZ7mZ5jSNQ1nYWBintF/NMUvDfL+zMO0tCTMgEJY9hRf2nYoIH/7EqF9Z/n8w0/wNRu+ad+JX1fxfy5SdFv8wHUEAAAAASUVORK5CYII="style="width:20px"> Australia</td>
+            <Td>0</Td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+</table> 
+
+<h2 style= "background-color: antiquewhite" > Group E </h2>
+<table style="width:100%">
+    <tr style= "background-color: antiquewhite">
+        <th>Team</th>
+        <th>wins</th>
+        <th>Draw</th>
+        <th>loss</th>
+        <th>Points</th>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+        <td>
+            <img src="data:image/png;base64,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"style="width:20px"> Spain </td>
+        <Td>0</Td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        </tr>
+        <tr style= "background-color: antiquewhite">
+            <td>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAElBMVEUAAAD/AADPtTt6AADekC/OuDycK1NWAAAAPklEQVRoge3MwQnAIAAEsLPq/it3Ap+HIMkASQAA4DmzKKNILpfL5XK5XC6/k6+i7KJ8RXK5XC6Xy+Vy+ckPcWMj8eV2hXoAAAAASUVORK5CYII="style="width:20px"> Germany</td>
+            <Td>0</Td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+            <tr style= "background-color: antiquewhite">
+                <td>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAYFBMVEX///+8AC25ABy7ACi3AAC4ABO3AAnv0dXmur7gq63ZlZrXj5PBMkS5ABb04eTOanXVho29GzLQdH7ManC6ACHGTVjy2tzER1LHV1/89vfDP03sys3Xi5H35+rLYGm7DyW0wqqCAAABZklEQVRoge2Yj3KCMAyH2yJQkQoI/kGLvP9bWsd2p5vOpPK73e7yPcB3uTRp0yglCIIgCP+CPrfLYrUqljbv5zWffDma1JmAS81Y+tNc5rVvnEn0DYlxjV/Poa7MvfnLb6q39bXrfponOle/pc4b90x9xTV5vLvIHiTkLjlZEeveZL+rr2SbOHebvnZrnbYx7orkDvaK764JOfnMDLto7ILq1nphee7B0N1am4ElPz9tnUd0Z46bkxR2YsoXzfOdpMQFzgp9yww8hL6lunfswEPoO6K8ZtXhhCF2Ur9nZyXkZU97WQdy49+S0RrJxslp9RKTcnLS2zFGPtLu9UPEeYYTPVDcUcVCLZf+GCc//r0cmRbogWJLEdpE0PaHXlzQKxf6WGCfOegDjR0toEMRdpyDDqLYERo6/Cvl6d8Wz3VjP1zYryL2k4v9nmMXCwq6ElHYZY6CrqE+wC3QJnCrP0EQBEFAcQHeBBhB2qQI1AAAAABJRU5ErkJggg=="style="width:20px"> Japan</td>
+                <Td>0</Td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                </tr>
+                <tr style= "background-color: antiquewhite">
+                    <td>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAFVBMVEUAFIn////aKRwAAH/LytzzysrXAACNEeofAAAAU0lEQVRoge3YsQ3AMBADMTmJs//Ibr2Aigd4A7AWlEiSrt5i+YplFYPD4fB5+C6Wv1ieYnA4HA6Hw+Hw2Xh1iFYndHX8w+Fw+Di8ehRXL25J0tUB9FwrIfpbmdcAAAAASUVORK5CYII="style="width:20px"> Costa rica</td>
+                    <Td>0</Td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    </tr>
+</table>
+<h2 style= "background-color: antiquewhite" > Group F</h2>
+<table style="width:100%">
+    <tr style= "background-color: antiquewhite">
+        <th>Team</th>
+        <th>wins</th>
+        <th>Draw</th>
+        <th>loss</th>
+        <th>Points</th>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+        <td>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAGFBMVEXvM0D92iUAAACEchT/4ib93CX8ySruFEKbxX5OAAAAQUlEQVRoge3MSQ0AIAwAsME4/DvGwJL9SSugMSu5RmOfGz25XC6Xy+VyuVwul8vlcrlcLpfL5XK5XC6Xy+Xyv/IHL4EjlRPAwhQAAAAASUVORK5CYII="style="width:20px"> Belgium </td>
+        <Td>0</Td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        </tr>
+        <tr style= "background-color: antiquewhite">
+            <td>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAABhlBMVEX/AAAXF5b///8AAJP/enp6erT/7e3/5OT/nJz/cHD/pKT/MTH/rKz/ubn/39//qKj/KCj/Pz//v7//j4//9/f/y8v/XFz/ERH/U1P/0tIAk93/Q0MAGJsAj90AAJgAkOIAEZr9Z2n/IhqSvOLepLL/hIJRdcKtkbpTtu8AnObNvM//QjTblqlUbLrNpL1eZ7MuSqzAnbsvqe3rj5l0gMDXnbOqvd3uipEjCpA4EY2UZqLDs8sklNR9suAjN6PUssXxf4SVlMZDAIORDmi/DFHSCT7lBysqj7y0ozR5h2BMhpqqlyBwkIpFVqzxqa+VsNm5WIp8mHLewgC4tFnNtgAqg8Y2JICXAF8hdsSCm3/nKDx0BnVgmqeQoXW5kTleGXlyBE3LuTRtX6Sjj0yhpV1YRJGsmUBBNXixDVa2oQYWaL6BdmHz1gCg2Pp8XVtyaGmHe1dtAADMGBN0K2xfMXODU1tTAABoLi50HBesAAC80eJaAHqRAACeocXk7fm6hazFd5GUVItJqug3AAAD/ElEQVRoge2X/VfaVhjHEy4lQgAJJryEXC6EOGHFlsYWQWF1WoV1SmlKLYjOzW2utXUvdW/V0ep/3pvc7Kw9lQSC5+x4Tr6/3HwTns+5PPe5T24oypUrV67+b3Hxq2dmZXPMKeadWOSq2LOfzXmNMY8Kn+sXN4vztyaFpkz2bQBKd2JxRYWiiHIxeeEuAJl7JENOExUplxcxP3s3LUmV6tJyQcSqofrcF4CmM6UiRbH++7kVZ3ClgNT6/dkvV9cerG/EqaVG8yv48OtNKGUkiabB1kLrUR6h3E0n7EQeIiTCwr++/VjTak+0zlN6+9mzKqZ3IWw82USKFWSYyhD2ejgRO1R8Y/3BWn9rV9PEPa3ZBS++2f+2SktdEfY639XU7PjsxQJsdDoPoXjQX6UlScqUxN0Ggru1bvr75na1QtP6CvywCVFZHhvewrF7zZoodnGKcZJXfxRRo7eLxC441LRO86ctFUEjcbnx4XId1x3SC2R/7fkGvrEuosedFzXxCLzUtFeH6XaIOc4jXJ1TY7NxsUCdDBtoh/gdEe290mDhCPz8y6+HL9Mbv71OBcLHat0BG1eLAT9FbUreeb7W34dio9lDhRI42f79j/R2IvLnX3+/8SZbTuDUspir105z8OkZXs4MyCCcYZyGEt6eWPPHfNT7+p83sZgjuF+F5dM6FKEEMqX5g6XBYHBnMHi0dHB7iwbgCCL1+G0r5STjusq4HCAsqDfeLWQTHEuKQo5wqdhKcamm6s/yb51NnKJWcKdSc+fZyza4HFtZzosQDZx2+EiuXrSamLw4yM9aErzDlc2mWJbDYg1xROx/juX8nEW8l/IMly9ElPQZEohjDMOYjwIW8R4rOBMlf26GWLNB+QwTJiYQvCK4/yM4WchpF36t4PEIljzj4bE8fll3EUY3fJjVr+NBx/CwwBgKphJYqShxWd0kvMTwjus8LJAxRPKRJI4zTMz8jQu/9nDWMIlJ4YwwRRQw9JExXXLaMdyi5TJuy72GcMECTk0KT7IpLG6GvP29nOHIWUBIGWeL0ARwMgbJLM0tZW4io6vzHsdwPkpGi+0fTjqFe6Zt4SHeMVxg7OBRq3BruJnR4XB+EnjIBm65nHZwXvgU/kHL9VkuJ4bfsNRFGJ+EpwRDM+RcHDVM1Ov1C8UD62gKWOtcGLpDE+HVtHUwRVurogSHwBNMP2MTbAenK63ApXB/8sSObQ+XqorvEjifPEnbhdrDaRq0mU/hxTPbeY8Ep8FZUSd+8A5NtoE0QuAocFqq7J+H8dd4NhHzT/l8ykUVjBI2GpymM+lq/90tRVHuzV2cgREyMg4cSwJ6VadHJo8FdyAX7sJduAt34S7chTvTe5MVr+ZAomXGAAAAAElFTkSuQmCC"style="width:20px"> Coratia </td>
+            <Td>0</Td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+            <tr style= "background-color: antiquewhite">
+                <td>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAbFBMVEXBJy0AZTPDJi0AYzOxMC4KYjPHIy21Li7LIC2+KC2vMS6rNC44XDIaYTNsTjG6Ky6gOS88WzKFRTCaPC93SjCARzBAWjJxTDGkNi6NQS9HWTKSQC8uXjJSVTGKQzBYVDFmUDEkXzNhUjFNVzJuZk+BAAACSUlEQVRoge2XW5PqIBCE7UEm5GaSjcaYi5f1///HHaKrpeWeOhp4o19AUrb4DfToYhEUFBQUFBQU9LeIPHqnqT93Xq/ZmzlVlbedU6JU4sudN8DGFxdulGo8mVsq3rjwF6oKX362zg02G/jhIlSQpvDDRahkRJkfLkJlzbz1woWWGilRCr10z4X3yOyYYT9/6/Qk02BrZBAu5vnZ2+bp8lGtRh0tl1EN3T49St/eeJ1DP0ipx/G2nvdvb52jDuKT373V00TLQ6XQRR/UgCQEldrH0aRUo7zMSuj0Mov34r3mzw4PtydgRSwl4x2Ga40XA3bTEq2AU/vx0aHFN5Cl8n7TYXW14RU6I0OSAd+LGceSzE5BLjxFGu3161MLHZGEAdTOzLtPHDXAGPdC5aYBfXwAqk8q+SjiNTBkNyoTl2zAx5V8lClPULhXjlt5eSqNA2vrFp+leSa/BU2klZ5jZ9loRimr2lsOxHs7Hx3tWwxjjV7qeiiYC6lk00PHrnKXe5yItnJlSsGPLdEJvSss5owjL7gc7E+LoZTpEWdXXGKgFAqmtYnYiiuVQOzGm3rktpI7jVxyeKprjvdz9qXMKFQ4lpipkqS61PUIV+dFqNiLhJXNxamuRrg4sbZUbATk9XRA2H7Mmh1xESpjJ+FV/N7QYgS60Q0Xkn40xe5tYYpbBQc7p1piamoYd3GayWI9390cbKt78iHb4g7zuTB0/cLF1Brze0XfFC9NuOhmnxcq/2o4xOVs6P8w8PhfPSgoKCgoKCgo6P/0A6jKGjFvA4FMAAAAAElFTkSuQmCC"style="width:20px"> Morocco </td>
+                <Td>0</Td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                </tr>
+                <tr style= "background-color: antiquewhite">
+                    <td>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAMAAAD0WI85AAAAb1BMVEXVKx7////VJhj77e3ZTEXSAADVKRvTEwD45OPUIxP11dTUHgv12NfTGwT66unqp6TYQzrxxsTXPDP99/fpoJ3sr67jg3/zz87vu7nkjYzVLybhdnPifHrbWVLWMizkh4XfbWfmlJPaUkzcXFndZV/LoNpvAAAEO0lEQVR4nO2ba5uqIBCAQXcYCTUvmbZqnaz//xtParVdwHR3zwF6nC+7Tzk0LzDMMCAhE8X5cOk/F/fDmWrXZJlBZpAZZAaZQWwBCcM3Adls3gPEI8R7C5AN4tQhMRLEE4yJiUNiJMgmICSYOCQmgoTICGE4beEyEWSNrRaubQfxPlmrxT4neYmBICX2aljaCPLV+yFc9CCUfG06yLJenP+rgoteUJ0/WtRLa0A8EGX3lM/ZRY9xvzOxEmDPiKTAcLuiXx7SSuclyy0ySK0BoTUnDLbFCm81cVVsgRFev9Y3BmTXuoaDeK+K2JoX7CwCyVDdAGYWgcRc3QCPLQIJt0ylz7Yj0i5jQGikNMSJRqibA/JHqPTFH6tAlqDSh9dx3SSQhRpk8VrbIJBQuf6O2mJpB8ku2UdaKxZgXl8fGYgnukFCco3alcLbxSUJpjuiHhvdIEuAi50rxdzC1YUUBtz+/4O47m0qmzhXQ2MVSHwFdZIb1dS9a/a/gyzgsMl8emP8uZ9DxbJ13ih2y/MFivrZ5ni3mmmYWlEQICfNPvZS99g5OPYkXJqkMN5zdOPFj27qxfuGcAyCu4CvAWSPnXkIom762cSg62j5stVvRmLoKbGpBWCHjHvNIPnVXuf621BQlbd3LlTAsw7PNYO0Dv70iJO3vS7Tbkdr4UhUEqobZC3peYfkdB08f37aHq5pziRGPlQidYBIsyqHJaqAmMg4HjMwHSCudOvB1Bsr2TdO5GoHoTvl1mO8iIeChBYQuVdPE4gNAKGonEZjhSE1AaSSrk9T5FoX1gsiX2inSPB4DKQDxN8NFOPGCu58zSBeRX6B40RCSk8nSAE/9/ReGHYZmrYRicVAcXSKcHG7AmvwES/5namV3J3+6HD2tPyNgFgakKLQHfzQTxg8HploqqIUwY8chQfFY4u6ykF59IOYGET5U4Pa6lru4dsujwdZe/oKdN/NU+SXVHRWGjP4xm87IC8Aay2Z+snkQQkSX96W3tqv10x0FGxUdyB0F7GrSbERHnch5oDQDEcb4ODAGZx2EFrwkbGR86coaBTIyYRRJOJj8ATOABCaqo/YbxqJhm8ImQBCyxF1LvHiYqAJIKn69saXsK35I1KMCiY45OpmgNzNLB4AwMn7+enPXa7/Ym4ZAJL21QjGBSJAVGZ53gjR5HlWRgCIoj+SYzg4twwAyaA9hwNSV/vinIC45POs4hWrqibQnrYpskVzQA4sajaFH950uPtxq5KGfrFpInYwGySNn/NAN4qeVbx4aG7pB5FJuB1zac4CkLd5NckTU1/oMRUE8T1AfADFjtYykAWMuv5nPkgMj2edloIUAMMpoi0gGQznI9aALHGozmARyB7vL2NZC7JDHPHKiAUgZRBMenfPWJCjEMe3AGk4b94CJEIc886I+SB5HD8frtkI8g2ZQWaQGWQGeXuQv15zReZeRKz1AAAAAElFTkSuQmCC"style="width:20px"> Canada</td>
+                    <Td>0</Td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    </tr>
+    </table>
+
+<h2 style= "background-color: antiquewhite"> Group G</h2>
+<table style="width:100%">
+    <tr style= "background-color: antiquewhite">
+        <th>Team</th>
+        <th>wins</th>
+        <th>Draw</th>
+        <th>loss</th>
+        <th>Points</th>
+    </tr>
+    <tr style= "background-color: antiquewhite">
+        <td>
+            <img src="data:image/png;base64,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"style="width:20px"> Brazil</td>
+        <Td>0</Td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        </tr>
+        <tr style= "background-color: antiquewhite">
+            <td>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAGFBMVEX/AAD/////wMD/39//qan/4+P/vLz/6Ohr4nYFAAAAb0lEQVRoge3YQQrAIAwFUWtMvP+Nu250EcQUamfW8pb5YClERERbaiqPtG3E6+Wq4ODg4ODgb+LmcVuEWh2y7vFu46vIrqqHomkAl1VcwMHBwU/EU09u6ljM2jZzs767/uDg4ODgZ+Cpn5ZERPTrbtr5CF36/dVBAAAAAElFTkSuQmCC"style="width:20px"> Switseralnd</td>
+            <Td>0</Td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+            <tr style= "background-color: antiquewhite">
+                <td>
+                    <img src="data:image/png;base64,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"style="width:20px"> Serbia</td>
+                <Td>0</Td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                </tr>
+                <tr style= "background-color: antiquewhite">
+                    <td>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAXVBMVEXOESb80RYAel7KACf91BUAfF9YZ1LXACDxsBrNACb0uRn+1xX5xxfVRCT2wBjaWiLsnB3YUSPpkx7ojx7wrBvWSSTmiB7RLCXkgh//3RTUPCTdaiHbYCL6yxfupBx98J8wAAABJ0lEQVRoge3UzZKCMBAE4LCT3WWYEAEF/H//xzSAuIjRqq0kt56DBYd81bYT1Zdvvn9+1T+Gcp35RgEHDhw4cODAgQMHDhz4y/Bmw8lwqipKV4sxyWrhWqT29RIDp0ak8fUSJbnV2iZKzrUjtK+XAJzpPlvJMtnObxwD57qwxTjTienZFouvEJCcSit6mOnE+Ci2pBjJXXZu5Om0loaX1Yf9oHS+yN8ZuZyfFzJwW6jfPXTZ9atlD11Fpuvc+ZXW2xi852Rn3L5c0uDk7eO8bmMnp264QcYMn906ejDuWpG873Px9BKIc+kuz56Yae8uU8lRceoOth0DU2sP615CcVOpe1xWlYmLH0/Lv5LTMSqu+O1LBPzjAAcOHDhw4MCBAwcOHHg6/AbFZisz7L/+vQAAAABJRU5ErkJggg=="style="width:20px"> Cameroon</td>
+                    <Td>0</Td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    </tr>
+</table>
+<h2 style= "background-color: antiquewhite"> Group H</h2>
+<table style="width:100%">
+    <tr style= "background-color: antiquewhite">
+        <th>Team</th>
+        <th>wins</th>
+        <th>Draw</th>
+        <th>loss</th>
+        <th>Points</th>
+    </tr> 
+    <tr style= "background-color: antiquewhite">
+        <td>
+            <img src="data:image/png;base64,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"style="width:20px"> Porugal</td>
+        <Td>0</Td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        </tr>
+        <tr style= "background-color: antiquewhite">
+            <td>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAA+VBMVEX///8AOKhQZLcAI6OrtdrLzuYANKf6/P4AMqZKW7QAAJ390hZyMgD/1hf/2xf/3Rf/4hh2OAC3nYz6+Pfn39lfAABsHQCjbACtfAtqIAClcwrjuBOeawlwLgDOoBCteADXqxHzxxXx7OiRWgbCrqevkn1pEwDVx8Oif3htAACnh3aCSBrMurCERgCeYgDb0tJ1IQDXx7U7ULDHo2W5o5+JWkjEn1DXuYZ8RSbPuqa/lk7SqkXOtZmDOgCWbVnCpoaadWfXqy5zNRvIq37Bkg3AlTjk1b7axabWvZTHnzB4PBeLXUGukoeDTzXft0TVtXaSXBzTsGY1Q6saJhGQAAADk0lEQVRoge2ZDXOaSBiA9z65KwuIouwHi7uQirUg6SXU2BpP4+azSa+9//9jbsG0MR9zJYjT6QzPjKyM7MM777IviwDQ0LA9zi7lL3di3Vs3g2IbtWt1O8OiCV7l29HrWt0gToomGqfqRPtvHh+g/fVzSTZ7ddaR9w7y5rA/zTfRE6d/8UdJ7vVqF/qs/1YDYNGfAHDkT9envZf5Fz+V5J68M0jz0Lv0HQBX6H3+bVakqAe2l4PoeKKCnjPjb9BFHHzAeh758NipQw4W7jIFMUYiUp8hS6wIOCfuCtQiB7gvpkEPG32IWthGVGsPiP9wQKvK0y6xTrEtpZKHWD/NsCeKgYicLeRfrocRJi1qJx5DLeT5jHmW+sWZ28kwri6Pj87Ozi/OoyBjxDLCBEkf2RB6rdMgWgz67zbT8ktJ7rqMXo0lF4Y4ZZBwbhiGrnPmmfTExoxfbqbu17Js9HGus66dSCEhFKZS64YluGnbmOiXnYdjUwFnziAjmHIphS6kpBwlSIiVVoNbFaWFHSJiUYSowYmkFvR8FH+737cInLPJe64bZss3dIRU5ETqJmIMXh19uI7ToLLZad8kY7ePCvw84WsM6XkeIcR1Q3jTruzvBFF7mOEeY0wquZBUpV03/JZlCfrxn9mbYOtB1fYQ8hJLxUwpVVsTSS95qdUyoNpKhZx41BDIk64UBochtuGoer7v6Cx1NSsT09cNnfpCN4QNfUqSAZ7H2/q1JbcxxtQiCVWzyDQpD237I9WFj8Ljva/H/VaWTfdBv7uI08sWgcxG3JchUkUGZsF0NZlMZ/BrWXx+bYlHn1im+s9MwqAMpRkyD4bCDHu3Id/dR59fFTtpnIeWCtLLpMBey4MSQbg0w8HDdFe9WWhL1L0OBLLtXC5wL1iJ8KYm+YqcRCBu2WxoeHjPGOMIRDw8rEWeJgs1D2cCzwElA/BW741U0TnYr+Pu34FFAZzwbgC4ewMC7nfzST+9qkF+W5kuZAbAZ1ctSFM+LpalTh0rrnUzdVWSL9z8EgwuB52NX27lv5cEPMF5fvEVq1xlPX68FP33z5I8JX+dpyLYX0ebPS4qWlmecB+ub2vd9V69TxZf8ju6t1czO32aa/gxKT0jKgDKTuUqgLJFqAqgbPmsQiNv5M+Ql11UVqH8ergC37u0NTT8+JT+T6kCu60tO62KjbyRl5eXfblRBVD2tUwVvnf1aWho+D/+AzB1f/eq3HMEAAAAAElFTkSuQmCC"style="width:20px"> Uraguay</td>
+            <Td>0</Td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            </tr>
+            <tr style= "background-color: antiquewhite">
+                <td>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAb1BMVEXOESYAaz/80RYAAADNACYAaEDcZSL+1xV5jjX/1RN9aQv/2hf/0xb5zxahhw6HcQzUshM3LQU8MgX/4RiReQ11YwuCbgwjHgOylQ8HBQDkvxTyyhXduRRLPwbFpBFkUwhrhzSAkzVsXAkuJgQfGgPASSMUAAABZ0lEQVRoge2U246CMBBAu3R3uzBFsCAiV0X//xsVWRSI0plkm32ZE54aekJOpwjBMAzDMAzDMP/Bp0PEt0OEIgBxDJT3hUcAggAo75Pk4XYbupLrWMpYO5JDJGVE6UKRh0ZKQ+lCkPdVaF0I8r4KrQsli+nlxsmXD1VIXSxyBQ+SdJCnyXPNkmhdHma7YCTbD/J99ljaZeuzsy7XZSdX6Mr1RJYsGvLDO/UhB0t+64FCUb9214V1KO3Tov30lTv17VODGUVozkv1ucHcJdScq+W5dqXC7MNdIg2bqXtjO0mS3FNzOeq70XIwU7lB/ryQWap58+ovs8yroLvg5GOVPCd1Qcl/q9QVQFUTuuDm/F4l8nzv9kT4Lih5X+Uy3kloLtguGLkupGyfd1KVrZQFpgtGfquyUROZvi9g5L6dpK1gvgJFmyA2ih8Ex9Ny5XTE7BNfDhEfDmE5y1nOcpaznOUsZznL33EFSt85b0bGPR4AAAAASUVORK5CYII="style="width:20px"> Ghana</td>
+                <Td>0</Td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                </tr>
+                <tr style= "background-color: antiquewhite">
+                    <td>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAA81BMVEX///8AAAAAR6DNLjrx8fH09PTq6ur8/PwASKS6urr4+PigoKA5OTnt7e2urq7PLjhra2tiYmLExMTi4uKQkJDLy8tVVVUeHh7R0dGEhIQUFBTb29tcXFwAQZ4KCgqYmJgwMDBMTEzTLTMAO50pKSnLGip1dXVAQEDQQUvknqLadHrJABz78vPCy+GrNVkzRZnwzM6Rpc19jb7eiY5rfrgAMJjDMEPqt7rz19nST1jVXGP15ujOcn3c1eClcJDf6POaGFKvJEhMZKq6LUeVOWlTQYyKO3FmP4R2PXugN2HPAA9JNYhfJnmYd56qtdVac7M0WqkU6NZrAAAEg0lEQVRoge2Z2ULaQBiFJ4sGEIngBmIEEyOKQkRBW62lFajaRXz/p+lswcySZdTccW6iSeabP2f2HwCWWmqpz1NTq30cUtOa0vttTdswP4Y2NzStLXuwpUGtfAy+ghhb4v0mur8NilXrvWSrWoOuQG0Kj6Ap2jGqeu+dztcONK0EoC9amX/UgjcPYp5lE4muhEJvsU820T36VU1QUQ6+Vgl9lRhThnc2QOkAVwtraig5XzrWtFXcIw4s8eOpKfAdrQPAIa5JQYh3SCKkxkQ+nTVlDV3WVeDrqMTCmKJ2FB1IqMoqMWULrKJXiipsACqoDDFmzwJrsLrFl7fI8DkmZu3gmhS1DwvthD0GV7ZGHtBQt2lPUTZlwaiAOrrUib+E0cGhWntvplTiGFZsJ6IxNYgx9EMAaT9iSpuYsi8pfH5x2j0xoE66pxfnkhd2SI85gpcGmWMAa0o9bBleF13D923bsJF83+heyIzZ3QahMUUC7+BQrV1co9yUmxPftY2IbNc/uRGMOS6BVWLMLv4QaoqJbx2BN68i+vLVZ8iU799+EaIvIkeJMSaEU1Pq8aacytAEf8qxN95YqNcBq4Xbj5iyLppidX05Gsnvsp0n4gI0BrYuaHbW4005v01gQ/ptiXn9kIw/EiqeGa2wpxQFU6xkNqIz8E2m5xE1y7QJFoOW6iqFDelXojF4zJQXU7q1tQdAlYyCiG7O0tiGccZ2yQ6erS12kTZJT2FWkLvUuHHsdxJj+B1KSzDlWzZ4V8BwSyhSvd1h/r/PxIbGsIOp3K4DiVbY4fM9I9xmQ19le6dc4x8xI1MM/S6dxmnwMytcmAZSZT1MEuB46l38c5uOY2WOYuG26xqTycRww3n4TLZ4JKk36sfAXWM6C3RdD2bP8G8MF5eOZA28X6487GlQ0IkKwRQHr2z6pRPI4LYxC9EY/4isd6/SeYyGTkHSXTg2pM/QytpN5zGaO4WZGLr7yLIh/cl9D1wvTHm6O+XZkN63leFDBxbss3S3L6CRMa4y/BLB9efIlsJ2nyVsSJ/4qg068Iij165N5F4/iZ7gd36dqXbF3oiU1B/71zDs6/6TLmfr+uNv1UFkjsLACnoQBOgSp0B5+IMHJ5bGw5UnLmp6Fv1RnnLBeJSOxSr8zbJYcMvcMKMvzj+mmHyZ4xfoXsbQR/dMMekCLW4tsoXuDAUMv7WQbYrGmZrUG0fLSDZFMdu5lwzGjF6YIuJ2LnYjepkau3fJFBA2oklb6HkK3ZszbGELnbj5T6F788TNf+qxZZhA94bJx5b0A9fAi+mRjjdg36QHrsUxP8tRcfwgwzvewxjw4o6KxKeUQ+7LK493vNcX/i3JIZc5nptxx/PeUPdoBQXH8/RhT3iFHs9N5nj+1jdxOjQusbDSG8xfEfx1PujJ5iaaWABmNZJYCFMiJejGduujKZEWDL4SSYks8k6lxmckc1BeL5LMCdNQqCk+IQ3VANE0VL4JtHxTf7kmLT893coumLkminNNceebnM/3Z4VcfxDJ96ecfH+EWmqppdT1H/PNdJZT+cqZAAAAAElFTkSuQmCC"style="width:20px"> south Korea</td>
+                    <Td>0</Td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    </tr>
+</table>
+
+<h1 Style= "background-color: rgb(0, 255, 217)">!!!!!!!ATTENTION ALL OF THESE TABLES ARE SET AS "PRE" WORLD CUP 2022 (NO PRIDICTIONS MADE) AND WILL CHANGE AFTER EACH MATCHDAY!!!!</h1>
+<H2 style= "background-color: rgb(0, 255, 217)">THANKYOU</H2>
+</body>
+</html>
